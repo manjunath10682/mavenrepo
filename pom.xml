@@ -26,17 +26,12 @@
     </plugins>
   </build>
    <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://dupfw46809dns.eastus2.cloudapp.azure.com:8081/repository/SAMPLE-REL/</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://dupfw46809dns.eastus2.cloudapp.azure.com:8081/repository/SAMPLE-SNAP/</url>
-        </snapshotRepository>
-    </distributionManagement>
+  <snapshotRepository>
+    <id>12345</id>
+    <url>http://ec2-18-216-7-213.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/12345</url>
+  </snapshotRepository>
+</distributionManagement>
+  
   <dependencies>
   	<dependency>
   		<groupId>javax.servlet</groupId>
