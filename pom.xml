@@ -26,12 +26,12 @@
     </plugins>
   </build>
    
-  <distributionManagement>
-    <snapshotRepository>
+<distributionManagement>
+  <snapshotRepository>
     <id>12345</id>
-    <url>http://ec2-18-216-7-213.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/12345</url>
-    </snapshotRepository>
-  </distributionManagement>
+    <url>http://ec2-18-219-15-238.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/12345</url>
+  </snapshotRepository>
+</distributionManagement>
   
   <dependencies>
   	<dependency>
